@@ -1,0 +1,18 @@
+This is an exercise to solve the following problem:
+
+CDD Code Problem: Depletion
+
+Your users like the chemical inventory system you built for them, but sometimes they unexpectedly run out of a chemical and have to wait for resupply. After discussing this with them, you realize that many uses recur at defined intervals, and this can help you forecast when the chemical will run out.
+
+For this code problem, you will write the algorithm to predict when a chemical will run out. Please use Ruby and include plenty of specs/tests. Aside from testing frameworks, do not use libraries or gems created by others.
+
+RECURRING USE
+1.  A recurring use has an amount, a periodicity, a start date and an optional end date
+
+2.  A recurring use's periodicity can be daily or weekly (on a particular day of the week)
+
+3. Given a current amount and one or more recurring uses, predict when the chemical will run out
+
+4. If the last use brings the amount to zero, then return the date of the last use
+
+5. If any use makes the amount negative, return the date of the latest use that did not incur a negative balance
