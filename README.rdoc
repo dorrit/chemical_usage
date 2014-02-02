@@ -1,6 +1,5 @@
 This is an exercise to solve the following problem:
 
-CDD Code Problem: Depletion
 
 Your users like the chemical inventory system you built for them, but sometimes they unexpectedly run out of a chemical and have to wait for resupply. After discussing this with them, you realize that many uses recur at defined intervals, and this can help you forecast when the chemical will run out.
 

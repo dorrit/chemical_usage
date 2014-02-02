@@ -1,5 +1,4 @@
-require 'rspec'
-require 'chemical'
+require 'spec_helper'
 
 describe Chemical do 
 	context 'initialization' do
